@@ -1,2 +1,2 @@
-Pour la carte arduino ou micro-contrôleur pic ?!
+-Écrire un programme pour générer une interruption chaque 20ms en utilisant le timer 2.
 
