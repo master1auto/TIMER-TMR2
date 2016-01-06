@@ -13,12 +13,15 @@ INTCON = 0b11000000;
 }
 
 void main() {
+ANSEL=0;
+ANSELH=0;
 timer_init();
-trisb=0;
-portb=0;
-
+TRISB=0;
+PORTB=0;
+while(1){
 if(cnt == 50){
 PORTB=~PORTB;
 cnt=0;
+}
 }
 }
